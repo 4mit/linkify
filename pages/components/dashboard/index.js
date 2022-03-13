@@ -5,10 +5,10 @@ import AppBar from "../appbar";
 
 const Dashboard = () => {
   return (
-    <div class=" dark:bg-gray-800  h-screen overflow-hidden relative">
+    <div class="h-screen overflow-hidden relative">
       <div class="flex items-start justify-between p-3">
         <div class="h-screen hidden lg:block shadow-lg relative w-80 ">
-          <div class="bg-white h-full  dark:bg-gray-700 shadow-md rounded">
+          <div class="h-full   shadow-md rounded">
             <Nav />
           </div>
         </div>
@@ -18,12 +18,9 @@ const Dashboard = () => {
             <div class="flex flex-col flex-wrap sm:flex-row ">
               <div class="w-full">
                 <div class="mb-4 mx-0 sm:ml-0 xl:mr-0">
-                  <div class="shadow-lg  bg-white dark:bg-gray-700 w-full pb-5">
-                    <p class="font-bold text-md p-4 text-black dark:text-white">
+                  <div class="shadow-lg  bg-white  w-full pb-5">
+                    <p class="font-bold text-md p-4 text-black">
                       Website links
-                      <span class="text-sm text-gray-500  dark:text-white ml-2">
-                        (05)
-                      </span>
                     </p>
                     <VibhagLink />
                   </div>

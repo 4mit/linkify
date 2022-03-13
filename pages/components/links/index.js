@@ -96,8 +96,8 @@ const VibhagLink = () => {
       <ul>
         {links.map((l, i) => {
           return (
-            <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-              <div className="flex items-center justify-start text-sm">
+            <li className="mb-1 border border-white-500 shadow flex items-center  dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 ">
+              <div className="flex items-center justify-start text-sm text-black">
                 <span className="mx-4">{i + 1}</span>
                 <span>
                   <a href={l.link} target="_blank">
@@ -106,7 +106,7 @@ const VibhagLink = () => {
                 </span>
               </div>
               <div className="flex flex-row justify-end text-sm mr-3">
-                <ul className="flex justify-between">
+                <ul className="flex justify-between text-black">
                   {l.supprts.map((s, idx) => {
                     return (
                       <li className="p-3 border border-sky-500 rounded mr-1">

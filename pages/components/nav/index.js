@@ -1,5 +1,5 @@
 import React from "react";
-import { navConfig } from "./config";
+import navConfig from "./config";
 
 const Nav = () => {
   return (

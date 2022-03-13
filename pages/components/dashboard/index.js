@@ -18,14 +18,13 @@ const Dashboard = () => {
             <div class="flex flex-col flex-wrap sm:flex-row ">
               <div class="w-full">
                 <div class="mb-4 mx-0 sm:ml-0 xl:mr-0">
-                  <div class="shadow-lg  bg-white dark:bg-gray-700 w-full">
+                  <div class="shadow-lg  bg-white dark:bg-gray-700 w-full pb-5">
                     <p class="font-bold text-md p-4 text-black dark:text-white">
                       Website links
-                      <span class="text-sm text-gray-500 dark:text-gray-300 dark:text-white ml-2">
+                      <span class="text-sm text-gray-500  dark:text-white ml-2">
                         (05)
                       </span>
                     </p>
-
                     <VibhagLink />
                   </div>
                 </div>

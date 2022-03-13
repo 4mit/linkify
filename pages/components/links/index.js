@@ -98,9 +98,15 @@ const VibhagLink = () => {
           return (
             <li className="mb-1 border border-white-500 shadow flex items-center  dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 ">
               <div className="flex items-center justify-start text-sm text-black">
-                <span className="mx-4">{i + 1}</span>
+                <div class="m-1 mr-2 w-12 h-12 relative flex justify-center items-center rounded-full bg-green-500 text-xl text-white uppercase">
+                  {l.title.charAt(0)}
+                </div>
                 <span>
-                  <a href={l.link} target="_blank">
+                  <a
+                    href={l.link}
+                    target="_blank"
+                    className="underline decoration-2-sky-500"
+                  >
                     {l.title}
                   </a>
                 </span>

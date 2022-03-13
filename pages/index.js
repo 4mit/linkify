@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Dashboard from "./components/dashboard/index";
-
+import TopNav from "./components/header/index";
 export default function Home() {
   return (
     <div>
@@ -13,11 +13,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <Dashboard />
-      </main>
-
+      <Dashboard />
       <footer></footer>
     </div>
   );

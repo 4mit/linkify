@@ -6,7 +6,7 @@ import TasksIcon from "./icons/tasks.svg";
 import NavigateIcon from "./icons/navigate.svg";
 import QuestionIcon from "./icons/question.svg";
 
-const navConfig = [
+const NavConfig = [
   {
     title: "web site link",
     icon: <DashboardIcon />,
@@ -33,4 +33,4 @@ const navConfig = [
   },
 ];
 
-export default navConfig;
+export default NavConfig;
